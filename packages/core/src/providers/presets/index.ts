@@ -8,7 +8,6 @@ import { geminiProviderPreset } from "@ccr/core/providers/presets/gemini/index";
 import { infistarAiProviderPreset } from "@ccr/core/providers/presets/infistar-ai/index";
 import { kimiCodingProviderPreset } from "@ccr/core/providers/presets/kimi-coding/index";
 import { minimaxChinaProviderPreset, minimaxGlobalProviderPreset } from "@ccr/core/providers/presets/minimax/index";
-import { minimaxCodingProviderPreset } from "@ccr/core/providers/presets/minimax-coding/index";
 import { mistralProviderPreset } from "@ccr/core/providers/presets/mistral/index";
 import { moonshotChinaProviderPreset, moonshotGlobalProviderPreset } from "@ccr/core/providers/presets/moonshot/index";
 import { nvidiaProviderPreset } from "@ccr/core/providers/presets/nvidia/index";
@@ -61,7 +60,6 @@ export const providerPresets: ProviderPreset[] = [
   zaiGlobalGeneralProviderPreset,
   minimaxGlobalProviderPreset,
   minimaxChinaProviderPreset,
-  minimaxCodingProviderPreset,
   mistralProviderPreset,
   moonshotChinaProviderPreset,
   moonshotGlobalProviderPreset,
